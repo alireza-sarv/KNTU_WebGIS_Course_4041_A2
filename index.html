@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenLayers Assignment</title>
+
+    <!-- OpenLayers CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css"
+    />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="search-bar">
+      <input id="searchInput" type="text" placeholder="Search a place..." />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="credit-badge">توسعه دهنده:علیرضا سرو</div>
+
+    <div id="map"></div>
+
+    <!-- OpenLayers JS -->
+    <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+
+    <script src="./api-keys.js"></script>
+    
+    <!-- Your JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
+
